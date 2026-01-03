@@ -50,16 +50,12 @@ const SignInScreen = ({ navigation }: { navigation: any }) => {
                     style={styles.signInInput}
                     placeholder='Email'
                     onChangeText={text => handleChange(text, "email")}
-                    //placeholderTextColor={'#D7D7D7'}
-                    //value={dishName}
                 />
                 <TextInput 
                     style={styles.signInInput}
                     placeholder='Password'
                     onChangeText={text => handleChange(text, "password")}
                     secureTextEntry={true}
-                    //placeholderTextColor={'#D7D7D7'}
-                    //value={dishName}
                 />
                 <TouchableHighlight style={styles.signInButton} onPress={()=> Login()}>
                     <Text style={{fontFamily: 'InriaSans-Regular', fontSize: 15}}>Sign In</Text>

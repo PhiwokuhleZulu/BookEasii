@@ -106,13 +106,6 @@ const BookingScreen = () => {
                 </TouchableOpacity>
 
                 <Modal visible={webViewVisible} animationType="slide">
-                    {/* <TouchableHighlight 
-                        onPress={() => navigation.navigate('BookingScreen')}
-                        style={{borderRadius: 100}}
-                        >
-                        <Image style={{height: 30, width: 30, backgroundColor: 'white', borderRadius: 100, margin: 10}} source={require('../assets/images/backButtonImage(1).png')}/>
-                    </TouchableHighlight> */}
-
                     <BookingPayment />
                 </Modal>
             </View>

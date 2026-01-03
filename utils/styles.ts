@@ -2,10 +2,6 @@ import { StyleSheet } from "react-native";
 import { useFonts } from "expo-font";
 import StoreFront from "../app/StoreFrontScreen";
 
-// const [loaded, error] = useFonts({
-//   'Inter-Black': require('../assets/fonts/InriaSans-Bold.ttf'),
-// });
-
 export const Colors = {
   PrimaryBlack: "#000000",
   DarkBrown: '#322E2E',
@@ -37,11 +33,8 @@ const styles = StyleSheet.create({
     fontFamily: 'InriaSans-Light',
   },
 
-  //Styling for the SignInScreen component
   signInContainer: {
     backgroundColor: Colors.DarkBrown,
-    // width: '100%',
-    // height: '100%',
     flex: 1,
   },
   signInBox: {
@@ -72,7 +65,6 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
 
-  //Styling for the SignUp screen component
   signUpContainer: {
     margin: 30,
     marginTop: 150,
@@ -95,7 +87,6 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
 
-  // Styling for the HomePage screen component
   HomePageContainer: {
     backgroundColor: Colors.DarkBrown,
     height: '100%',
@@ -136,8 +127,6 @@ const styles = StyleSheet.create({
     margin: 10,
   },
 
-
-  // Styling for the StoreFront Screen
   storefrontLanding: {
 
   },
@@ -149,7 +138,6 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   backButton: {
-    // backgroundColor: Colors.White,
     margin: 15,
     marginTop: 50,
     height: 40,
@@ -160,16 +148,12 @@ const styles = StyleSheet.create({
   },
   collapsibleContent: {
     backgroundColor: Colors.White,
-    // padding: 16,
-    // borderRadius: 10,
-    // marginHorizontal: 16,
     overflow: "hidden",
   },
 
   serviceContainer: {
     backgroundColor: Colors.Green,
     alignSelf: 'center',
-    // marginVertical: 5,
     marginTop: 5,
     borderRadius: 10,
     width: '93%',
@@ -179,14 +163,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
   },
 
-        // The following part is for the "Gallery" tab in the Storefront
   galleryRow: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     marginBottom: 10,
   },
 
-        // The following part is for the "Reviews" tab for the Storefront
   clientReview: {
 
   },
@@ -196,7 +178,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
   },
 
-  // Styling for the Booking Screen for each storefront
   bookingScreenContainer: {
     flex: 1,
     backgroundColor: Colors.Green,
@@ -232,7 +213,6 @@ const styles = StyleSheet.create({
   },
 
   bookingsOptions: {
-    // margin: 15,
     marginLeft: 15,
     marginRight: 15,
   },

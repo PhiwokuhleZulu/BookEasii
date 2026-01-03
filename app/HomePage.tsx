@@ -9,14 +9,12 @@ const HomePage = ({ navigation }: { navigation: any }) => {
                 style={styles.searchInput}
                 placeholder="Search"
             />
-            {/* Insert Filter UI */}
             <Text 
                 style={[styles.bodyText2, {alignSelf: 'center', color: 'white', marginTop: 15}]}
             >Locations within 50km
             </Text>
 
 
-            {/* All this storefront info will be in a function and referenced with a Flatlist in this return statement later */}
             <View  style={styles.storefrontContainer}>
                 <TouchableOpacity 
                     style={{borderRadius: 5}}
@@ -82,9 +80,8 @@ const HomePage = ({ navigation }: { navigation: any }) => {
                     </ImageBackground>
                 </TouchableOpacity>
             </View>
-
-            
         </View>
+
     );
 };
 
